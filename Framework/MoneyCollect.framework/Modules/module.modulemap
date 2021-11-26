@@ -1,0 +1,6 @@
+framework module MoneyCollect {
+  umbrella header "MoneyCollect.h"
+
+  export *
+  module * { export * }
+}

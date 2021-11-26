@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5793BDA72745046E0012C6A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5793BDA62745046E0012C6A4 /* AppDelegate.m */; };
+		5793BDB02745046E0012C6A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5793BDAE2745046E0012C6A4 /* Main.storyboard */; };
+		5793BDB2274504710012C6A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5793BDB1274504710012C6A4 /* Assets.xcassets */; };
+		5793BDB5274504710012C6A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5793BDB3274504710012C6A4 /* LaunchScreen.storyboard */; };
+		5793BDB8274504710012C6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5793BDB7274504710012C6A4 /* main.m */; };
+		57B99A88274F838600FBAC9B /* MCCreateCustomerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B99A65274F838300FBAC9B /* MCCreateCustomerVC.m */; };
+		57B99A89274F838600FBAC9B /* MCAddCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B99A69274F838300FBAC9B /* MCAddCardViewController.m */; };
+		57B99A8A274F838600FBAC9B /* MCPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B99A6A274F838300FBAC9B /* MCPresentationController.m */; };
+		57B99A8B274F838600FBAC9B /* MCThreeDSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B99A6D274F838300FBAC9B /* MCThreeDSWebViewController.m */; };
+		57B99A8C274F838600FBAC9B /* MCSelectPaymentCardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B99A6F274F838300FBAC9B /* MCSelectPaymentCardVC.m */; };
+		57B99A8D274F838600FBAC9B /* MCProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B99A71274F838300FBAC9B /* MCProductCell.m */; };
+		57B99A8E274F838600FBAC9B /* MCPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B99A72274F838300FBAC9B /* MCPaymentViewController.m */; };
+		57B99A8F274F838600FBAC9B /* MCPublicDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B99A76274F838400FBAC9B /* MCPublicDefine.m */; };
+		57B99A90274F838600FBAC9B /* MCProductDetailsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B99A77274F838400FBAC9B /* MCProductDetailsModel.m */; };
+		57B99A91274F838600FBAC9B /* MCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B99A7B274F838400FBAC9B /* MCViewController.m */; };
+		57B99A92274F838600FBAC9B /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B99A7C274F838400FBAC9B /* BaseNavigationController.m */; };
+		57B99A93274F838600FBAC9B /* MCPaymentSheetCheckoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B99A81274F838500FBAC9B /* MCPaymentSheetCheckoutVC.m */; };
+		57B99A94274F838600FBAC9B /* MCConfigurationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B99A82274F838500FBAC9B /* MCConfigurationVC.m */; };
+		57B99A95274F838600FBAC9B /* MCPaymentSheetCustomCheckoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B99A83274F838500FBAC9B /* MCPaymentSheetCustomCheckoutVC.m */; };
+		57B99A96274F838600FBAC9B /* MCPaymentMethodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B99A84274F838500FBAC9B /* MCPaymentMethodVC.m */; };
+		57B99A97274F838600FBAC9B /* MCConfigurationFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B99A85274F838500FBAC9B /* MCConfigurationFile.m */; };
+		57B99A98274F838600FBAC9B /* MCTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B99A86274F838600FBAC9B /* MCTextField.m */; };
+		57B99A9D274F872D00FBAC9B /* MoneyCollectResours.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 57B99A9B274F872D00FBAC9B /* MoneyCollectResours.bundle */; };
+		57B99AA72750852800FBAC9B /* MoneyCollect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B99AA62750852800FBAC9B /* MoneyCollect.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5793BDA22745046E0012C6A4 /* MoneyCollectExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyCollectExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5793BDA52745046E0012C6A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5793BDA62745046E0012C6A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5793BDAF2745046E0012C6A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5793BDB1274504710012C6A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5793BDB4274504710012C6A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5793BDB6274504710012C6A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5793BDB7274504710012C6A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57B99A65274F838300FBAC9B /* MCCreateCustomerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCCreateCustomerVC.m; sourceTree = "<group>"; };
+		57B99A66274F838300FBAC9B /* MCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCViewController.h; sourceTree = "<group>"; };
+		57B99A68274F838300FBAC9B /* MCThreeDSWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCThreeDSWebViewController.h; sourceTree = "<group>"; };
+		57B99A69274F838300FBAC9B /* MCAddCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAddCardViewController.m; sourceTree = "<group>"; };
+		57B99A6A274F838300FBAC9B /* MCPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCPresentationController.m; sourceTree = "<group>"; };
+		57B99A6B274F838300FBAC9B /* MCSelectPaymentCardVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSelectPaymentCardVC.h; sourceTree = "<group>"; };
+		57B99A6C274F838300FBAC9B /* MCAddCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAddCardViewController.h; sourceTree = "<group>"; };
+		57B99A6D274F838300FBAC9B /* MCThreeDSWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCThreeDSWebViewController.m; sourceTree = "<group>"; };
+		57B99A6E274F838300FBAC9B /* MCPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPresentationController.h; sourceTree = "<group>"; };
+		57B99A6F274F838300FBAC9B /* MCSelectPaymentCardVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSelectPaymentCardVC.m; sourceTree = "<group>"; };
+		57B99A70274F838300FBAC9B /* MCConfigurationFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCConfigurationFile.h; sourceTree = "<group>"; };
+		57B99A71274F838300FBAC9B /* MCProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCProductCell.m; sourceTree = "<group>"; };
+		57B99A72274F838300FBAC9B /* MCPaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCPaymentViewController.m; sourceTree = "<group>"; };
+		57B99A73274F838300FBAC9B /* MCConfigurationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCConfigurationVC.h; sourceTree = "<group>"; };
+		57B99A74274F838400FBAC9B /* MCPaymentSheetCheckoutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPaymentSheetCheckoutVC.h; sourceTree = "<group>"; };
+		57B99A75274F838400FBAC9B /* MCPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPaymentViewController.h; sourceTree = "<group>"; };
+		57B99A76274F838400FBAC9B /* MCPublicDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCPublicDefine.m; sourceTree = "<group>"; };
+		57B99A77274F838400FBAC9B /* MCProductDetailsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCProductDetailsModel.m; sourceTree = "<group>"; };
+		57B99A78274F838400FBAC9B /* MCPublicDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPublicDefine.h; sourceTree = "<group>"; };
+		57B99A79274F838400FBAC9B /* MCProductDetailsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCProductDetailsModel.h; sourceTree = "<group>"; };
+		57B99A7A274F838400FBAC9B /* MCCreateCustomerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCCreateCustomerVC.h; sourceTree = "<group>"; };
+		57B99A7B274F838400FBAC9B /* MCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCViewController.m; sourceTree = "<group>"; };
+		57B99A7C274F838400FBAC9B /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		57B99A7D274F838500FBAC9B /* MCPaymentMethodVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPaymentMethodVC.h; sourceTree = "<group>"; };
+		57B99A7E274F838500FBAC9B /* MCTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTextField.h; sourceTree = "<group>"; };
+		57B99A7F274F838500FBAC9B /* MCProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCProductCell.h; sourceTree = "<group>"; };
+		57B99A80274F838500FBAC9B /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		57B99A81274F838500FBAC9B /* MCPaymentSheetCheckoutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCPaymentSheetCheckoutVC.m; sourceTree = "<group>"; };
+		57B99A82274F838500FBAC9B /* MCConfigurationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCConfigurationVC.m; sourceTree = "<group>"; };
+		57B99A83274F838500FBAC9B /* MCPaymentSheetCustomCheckoutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCPaymentSheetCustomCheckoutVC.m; sourceTree = "<group>"; };
+		57B99A84274F838500FBAC9B /* MCPaymentMethodVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCPaymentMethodVC.m; sourceTree = "<group>"; };
+		57B99A85274F838500FBAC9B /* MCConfigurationFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCConfigurationFile.m; sourceTree = "<group>"; };
+		57B99A86274F838600FBAC9B /* MCTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTextField.m; sourceTree = "<group>"; };
+		57B99A87274F838600FBAC9B /* MCPaymentSheetCustomCheckoutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPaymentSheetCustomCheckoutVC.h; sourceTree = "<group>"; };
+		57B99A9B274F872D00FBAC9B /* MoneyCollectResours.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MoneyCollectResours.bundle; sourceTree = "<group>"; };
+		57B99AA62750852800FBAC9B /* MoneyCollect.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MoneyCollect.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5793BD9F2745046E0012C6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B99AA72750852800FBAC9B /* MoneyCollect.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5793BD992745046E0012C6A4 = {
+			isa = PBXGroup;
+			children = (
+				5793BDA42745046E0012C6A4 /* MoneyCollectExample */,
+				5793BDA32745046E0012C6A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5793BDA32745046E0012C6A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5793BDA22745046E0012C6A4 /* MoneyCollectExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5793BDA42745046E0012C6A4 /* MoneyCollectExample */ = {
+			isa = PBXGroup;
+			children = (
+				57B99A99274F872D00FBAC9B /* Framework */,
+				57B99A67274F838300FBAC9B /* 集成示例 */,
+				5793BDA52745046E0012C6A4 /* AppDelegate.h */,
+				5793BDA62745046E0012C6A4 /* AppDelegate.m */,
+				57B99A80274F838500FBAC9B /* BaseNavigationController.h */,
+				57B99A7C274F838400FBAC9B /* BaseNavigationController.m */,
+				57B99A66274F838300FBAC9B /* MCViewController.h */,
+				57B99A7B274F838400FBAC9B /* MCViewController.m */,
+				57B99A74274F838400FBAC9B /* MCPaymentSheetCheckoutVC.h */,
+				57B99A81274F838500FBAC9B /* MCPaymentSheetCheckoutVC.m */,
+				57B99A87274F838600FBAC9B /* MCPaymentSheetCustomCheckoutVC.h */,
+				57B99A83274F838500FBAC9B /* MCPaymentSheetCustomCheckoutVC.m */,
+				57B99A7A274F838400FBAC9B /* MCCreateCustomerVC.h */,
+				57B99A65274F838300FBAC9B /* MCCreateCustomerVC.m */,
+				57B99A7D274F838500FBAC9B /* MCPaymentMethodVC.h */,
+				57B99A84274F838500FBAC9B /* MCPaymentMethodVC.m */,
+				57B99A75274F838400FBAC9B /* MCPaymentViewController.h */,
+				57B99A72274F838300FBAC9B /* MCPaymentViewController.m */,
+				57B99A70274F838300FBAC9B /* MCConfigurationFile.h */,
+				57B99A85274F838500FBAC9B /* MCConfigurationFile.m */,
+				57B99A73274F838300FBAC9B /* MCConfigurationVC.h */,
+				57B99A82274F838500FBAC9B /* MCConfigurationVC.m */,
+				57B99A7F274F838500FBAC9B /* MCProductCell.h */,
+				57B99A71274F838300FBAC9B /* MCProductCell.m */,
+				57B99A79274F838400FBAC9B /* MCProductDetailsModel.h */,
+				57B99A77274F838400FBAC9B /* MCProductDetailsModel.m */,
+				57B99A78274F838400FBAC9B /* MCPublicDefine.h */,
+				57B99A76274F838400FBAC9B /* MCPublicDefine.m */,
+				57B99A7E274F838500FBAC9B /* MCTextField.h */,
+				57B99A86274F838600FBAC9B /* MCTextField.m */,
+				5793BDAE2745046E0012C6A4 /* Main.storyboard */,
+				5793BDB1274504710012C6A4 /* Assets.xcassets */,
+				5793BDB3274504710012C6A4 /* LaunchScreen.storyboard */,
+				5793BDB6274504710012C6A4 /* Info.plist */,
+				5793BDB7274504710012C6A4 /* main.m */,
+			);
+			path = MoneyCollectExample;
+			sourceTree = "<group>";
+		};
+		57B99A67274F838300FBAC9B /* 集成示例 */ = {
+			isa = PBXGroup;
+			children = (
+				57B99A6E274F838300FBAC9B /* MCPresentationController.h */,
+				57B99A6A274F838300FBAC9B /* MCPresentationController.m */,
+				57B99A6B274F838300FBAC9B /* MCSelectPaymentCardVC.h */,
+				57B99A6F274F838300FBAC9B /* MCSelectPaymentCardVC.m */,
+				57B99A6C274F838300FBAC9B /* MCAddCardViewController.h */,
+				57B99A69274F838300FBAC9B /* MCAddCardViewController.m */,
+				57B99A68274F838300FBAC9B /* MCThreeDSWebViewController.h */,
+				57B99A6D274F838300FBAC9B /* MCThreeDSWebViewController.m */,
+			);
+			path = "集成示例";
+			sourceTree = "<group>";
+		};
+		57B99A99274F872D00FBAC9B /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				57B99AA62750852800FBAC9B /* MoneyCollect.framework */,
+				57B99A9B274F872D00FBAC9B /* MoneyCollectResours.bundle */,
+			);
+			path = Framework;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5793BDA12745046E0012C6A4 /* MoneyCollectExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5793BDBB274504710012C6A4 /* Build configuration list for PBXNativeTarget "MoneyCollectExample" */;
+			buildPhases = (
+				5793BD9E2745046E0012C6A4 /* Sources */,
+				5793BD9F2745046E0012C6A4 /* Frameworks */,
+				5793BDA02745046E0012C6A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoneyCollectExample;
+			productName = MoneyCollectExample;
+			productReference = 5793BDA22745046E0012C6A4 /* MoneyCollectExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5793BD9A2745046E0012C6A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					5793BDA12745046E0012C6A4 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 5793BD9D2745046E0012C6A4 /* Build configuration list for PBXProject "MoneyCollectExample" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5793BD992745046E0012C6A4;
+			productRefGroup = 5793BDA32745046E0012C6A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5793BDA12745046E0012C6A4 /* MoneyCollectExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5793BDA02745046E0012C6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5793BDB5274504710012C6A4 /* LaunchScreen.storyboard in Resources */,
+				5793BDB2274504710012C6A4 /* Assets.xcassets in Resources */,
+				5793BDB02745046E0012C6A4 /* Main.storyboard in Resources */,
+				57B99A9D274F872D00FBAC9B /* MoneyCollectResours.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5793BD9E2745046E0012C6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B99A96274F838600FBAC9B /* MCPaymentMethodVC.m in Sources */,
+				57B99A8C274F838600FBAC9B /* MCSelectPaymentCardVC.m in Sources */,
+				57B99A8E274F838600FBAC9B /* MCPaymentViewController.m in Sources */,
+				57B99A8A274F838600FBAC9B /* MCPresentationController.m in Sources */,
+				5793BDA72745046E0012C6A4 /* AppDelegate.m in Sources */,
+				57B99A91274F838600FBAC9B /* MCViewController.m in Sources */,
+				57B99A8D274F838600FBAC9B /* MCProductCell.m in Sources */,
+				57B99A92274F838600FBAC9B /* BaseNavigationController.m in Sources */,
+				57B99A88274F838600FBAC9B /* MCCreateCustomerVC.m in Sources */,
+				57B99A95274F838600FBAC9B /* MCPaymentSheetCustomCheckoutVC.m in Sources */,
+				57B99A97274F838600FBAC9B /* MCConfigurationFile.m in Sources */,
+				57B99A90274F838600FBAC9B /* MCProductDetailsModel.m in Sources */,
+				57B99A89274F838600FBAC9B /* MCAddCardViewController.m in Sources */,
+				5793BDB8274504710012C6A4 /* main.m in Sources */,
+				57B99A93274F838600FBAC9B /* MCPaymentSheetCheckoutVC.m in Sources */,
+				57B99A98274F838600FBAC9B /* MCTextField.m in Sources */,
+				57B99A8B274F838600FBAC9B /* MCThreeDSWebViewController.m in Sources */,
+				57B99A94274F838600FBAC9B /* MCConfigurationVC.m in Sources */,
+				57B99A8F274F838600FBAC9B /* MCPublicDefine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5793BDAE2745046E0012C6A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5793BDAF2745046E0012C6A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5793BDB3274504710012C6A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5793BDB4274504710012C6A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5793BDB9274504710012C6A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5793BDBA274504710012C6A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5793BDBC274504710012C6A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DLRVTW74QH;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoneyCollectExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asiabill.MoneyCollectExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5793BDBD274504710012C6A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DLRVTW74QH;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoneyCollectExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asiabill.MoneyCollectExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5793BD9D2745046E0012C6A4 /* Build configuration list for PBXProject "MoneyCollectExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5793BDB9274504710012C6A4 /* Debug */,
+				5793BDBA274504710012C6A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5793BDBB274504710012C6A4 /* Build configuration list for PBXNativeTarget "MoneyCollectExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5793BDBC274504710012C6A4 /* Debug */,
+				5793BDBD274504710012C6A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5793BD9A2745046E0012C6A4 /* Project object */;
+}
