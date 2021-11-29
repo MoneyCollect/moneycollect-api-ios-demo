@@ -2,7 +2,7 @@
 
 Mobile Sdk发起交易示例图
 
-![3张-1_2x](uploads/9896bc4bff3cc48a9d213afdb18e30b8/3张-1_2x.png)
+![3张-1@2x](https://user-images.githubusercontent.com/92731686/141933450-8daa8efa-1648-4410-b0bf-97d6735d9da5.png)
 
 ### Set up MoneyConnectServer-sideClient-side
 
