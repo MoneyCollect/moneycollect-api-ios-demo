@@ -28,7 +28,7 @@
     [self.window makeKeyAndVisible];
     
     // 初始化 公钥 和 服务器地址
-    [[MCAPIClient shared] setPublishableKey:@"Bearer test_pu_1sWrsjQP9PJiCwGsYv3risSn8YBCIEMNoVFIo8eR6s" atCustomerIPAddress:@"http://192.168.2.100:9898/api"];
+    [[MCAPIClient shared] setPublishableKey:@"Bearer test_pu_1sWrsjQP9PJiCwGsYv3risSn8YBCIEM*****" atCustomerIPAddress:@"http://192.168.2.100:9898/api"];
     return YES;
 }
 
